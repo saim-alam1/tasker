@@ -1,4 +1,4 @@
-import { FaRegStar, FaStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 
 export default function TaskList({ tasks }) {
   return (
@@ -40,7 +40,7 @@ export default function TaskList({ tasks }) {
                 {task.isFavorite ? (
                   <FaStar color="yellow" />
                 ) : (
-                  <FaRegStar color="gray" />
+                  <FaStar color="gray" />
                 )}
               </td>
               <td>{task.title}</td>
